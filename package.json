@@ -31,12 +31,15 @@
     "crypto-js": "4.1.1",
     "elliptic": "6.5.4",
     "flat": "^5.0.2",
+    "fs": "^0.0.1-security",
     "i18n-js": "^3.8.0",
     "intl": "^1.2.5",
     "jest": "^27.2.0",
+    "jimp": "^0.16.1",
     "json-logic-js": "^2.0.1",
     "luxon": "^2.0.2",
     "pako": "^2.0.4",
+    "qrcode-reader": "^1.0.4",
     "react": "17.0.2",
     "react-native": "0.66.1",
     "react-native-bootsplash": "^3.2.5",
@@ -60,7 +63,8 @@
     "redux-flipper": "^2.0.1",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^5.3.1"
+    "styled-components": "^5.3.1",
+    "ts-node": "^10.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

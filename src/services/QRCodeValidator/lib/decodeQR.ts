@@ -17,7 +17,7 @@ import pako from 'pako';
 import {SHCJWTPayload} from '../types';
 import {ec as EC} from 'elliptic';
 import sha256 from 'crypto-js/sha256';
-import {Base64URLtoString, Base64URLtoBuffer, toHex} from 'utils/base64-utils';
+import {Base64URLtoString, Base64URLtoBuffer, toHex} from '../../../utils/base64-utils';
 import {TrustedIssuersJWKS} from './models/TrustedIssuersJWKS';
 import {Key} from './models/Jwks';
 import {VC, FhirBundle} from './models/VC';
